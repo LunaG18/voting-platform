@@ -3,7 +3,7 @@ import { signIn } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';
  
-export default function Signin() {
+export default function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const router = useRouter();
@@ -11,11 +11,14 @@ export default function Signin() {
 <>
 <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
 <div className="sm:mx-auto sm:w-full sm:max-w-sm">
-<img
-            className="mx-auto h-90 w-auto" 
-            src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/election-campaign-logo-template-design-d097bf8c17d33549b3f4e7c6ed1c9de0_screen.jpg?ts=1677474006"
-            alt="Election logo"
-          />
+<a href="homepage" className="inline-block">
+      <img
+        src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/election-campaign-logo-template-design-d097bf8c17d33549b3f4e7c6ed1c9de0_screen.jpg?ts=1677474006"
+        alt="Election logo"
+        className="mx-auto h-90 w-auto"
+      />
+    </a>
+
 <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-black underline">
             Log in to your account
 </h2>
