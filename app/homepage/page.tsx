@@ -1,6 +1,7 @@
 'use client';
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';
+import { CardContent, Card } from '@/components/ui/card';
  
 const Navbar: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -8,8 +9,10 @@ const Navbar: React.FC = () => {
     const toggleNavbar = () => {
       setIsOpen(!isOpen);
     };
+
     return (
-        <header>
+      <div className="flex flex-col min-h-screen">
+       <header>
           <nav className="bg-white shadow-md p-3">
             <div className="container mx-auto">
               <div className="flex items-center justify-between">
@@ -31,8 +34,179 @@ const Navbar: React.FC = () => {
             </div>
           </nav>
         </header>
-      );
-    };
-
-
-export default Navbar;
+        <main className="flex-1 bg-blue-400">
+          <div className="py-8">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <Card>
+                <CardContent className="flex flex-col items-center">
+                  <img
+                    alt="Candidate"
+                    className="rounded-full"
+                    height="96"
+                    src="/placeholder.svg"
+                    style={{
+                      aspectRatio: "96/96",
+                      objectFit: "cover",
+                    }}
+                    width="96"
+                  />
+                  <h2 className="text-2xl font-bold mt-4">Alice</h2>
+                  <p className="text-sm text-gray-500 mt-1">@alice</p>
+                  <div className="flex items-center gap-4 mt-6 w-full">
+                    <div className="w-1/2">
+                      <div className="rounded-lg bg-gray-200 w-full h-8 overflow-hidden">
+                        <div className="rounded-lg bg-gray-300 h-8" />
+                      </div>
+                    </div>
+                    <div className="w-1/2 text-right">
+                      <p className="font-semibold">50%</p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardContent className="flex flex-col items-center">
+                  <img
+                    alt="Candidate"
+                    className="rounded-full"
+                    height="96"
+                    src="/placeholder.svg"
+                    style={{
+                      aspectRatio: "96/96",
+                      objectFit: "cover",
+                    }}
+                    width="96"
+                  />
+                  <h2 className="text-2xl font-bold mt-4">Bob</h2>
+                  <p className="text-sm text-gray-500 mt-1">@bob</p>
+                  <div className="flex items-center gap-4 mt-6 w-full">
+                    <div className="w-1/2">
+                      <div className="rounded-lg bg-gray-200 w-full h-8 overflow-hidden">
+                        <div className="rounded-lg bg-gray-300 h-8" />
+                      </div>
+                    </div>
+                    <div className="w-1/2 text-right">
+                      <p className="font-semibold">50%</p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardContent className="flex flex-col items-center">
+                  <img
+                    alt="Candidate"
+                    className="rounded-full"
+                    height="96"
+                    src="/placeholder.svg"
+                    style={{
+                      aspectRatio: "96/96",
+                      objectFit: "cover",
+                    }}
+                    width="96"
+                  />
+                  <h2 className="text-2xl font-bold mt-4">Charlie</h2>
+                  <p className="text-sm text-gray-500 mt-1">charlie</p>
+                  <div className="flex items-center gap-4 mt-6 w-full">
+                    <div className="w-1/2">
+                      <div className="rounded-lg bg-gray-200 w-full h-8 overflow-hidden">
+                        <div className="rounded-lg bg-gray-300 h-8" />
+                      </div>
+                    </div>
+                    <div className="w-1/2 text-right">
+                      <p className="font-semibold">50%</p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardContent className="flex flex-col items-center">
+                  <img
+                    alt="Candidate"
+                    className="rounded-full"
+                    height="96"
+                    src="/placeholder.svg"
+                    style={{
+                      aspectRatio: "96/96",
+                      objectFit: "cover",
+                    }}
+                    width="96"
+                  />
+                  <h2 className="text-2xl font-bold mt-4">David</h2>
+                  <p className="text-sm text-gray-500 mt-1">david</p>
+                  <div className="flex items-center gap-4 mt-6 w-full">
+                    <div className="w-1/2">
+                      <div className="rounded-lg bg-gray-200 w-full h-8 overflow-hidden">
+                        <div className="rounded-lg bg-gray-300 h-8" />
+                      </div>
+                    </div>
+                    <div className="w-1/2 text-right">
+                      <p className="font-semibold">50%</p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardContent className="flex flex-col items-center">
+                  <img
+                    alt="Candidate"
+                    className="rounded-full"
+                    height="96"
+                    src="/placeholder.svg"
+                    style={{
+                      aspectRatio: "96/96",
+                      objectFit: "cover",
+                    }}
+                    width="96"
+                  />
+                  <h2 className="text-2xl font-bold mt-4">Eve</h2>
+                  <p className="text-sm text-gray-500 mt-1">eve</p>
+                  <div className="flex items-center gap-4 mt-6 w-full">
+                    <div className="w-1/2">
+                      <div className="rounded-lg bg-gray-200 w-full h-8 overflow-hidden">
+                        <div className="rounded-lg bg-gray-300 h-8" />
+                      </div>
+                    </div>
+                    <div className="w-1/2 text-right">
+                      <p className="font-semibold">50%</p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardContent className="flex flex-col items-center">
+                  <img
+                    alt="Candidate"
+                    className="rounded-full"
+                    height="96"
+                    src="/placeholder.svg"
+                    style={{
+                      aspectRatio: "96/96",
+                      objectFit: "cover",
+                    }}
+                    width="96"
+                  />
+                  <h2 className="text-2xl font-bold mt-4">Frank</h2>
+                  <p className="text-sm text-gray-500 mt-1">frank</p>
+                  <div className="flex items-center gap-4 mt-6 w-full">
+                    <div className="w-1/2">
+                      <div className="rounded-lg bg-gray-200 w-full h-8 overflow-hidden">
+                        <div className="rounded-lg bg-gray-300 h-8" />
+                      </div>
+                    </div>
+                    <div className="w-1/2 text-right">
+                      <p className="font-semibold">50%</p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </main>
+      </div>
+    )
+  }
+  
+  
+  
+  
+  export default Navbar;
