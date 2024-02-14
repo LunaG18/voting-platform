@@ -23,9 +23,7 @@ const Navbar: React.FC = () => {
               <div className={`${isOpen ? '' : 'hidden'} lg:block`}>
                 <ul className="flex space-x-4">
                   <li><a href="homepage" className="text-dark"><u>Home</u></a></li>
-                  <li><a href="vote" className="text-dark">Vote for Candidate</a></li>
-                  <li><a href="signup" className="text-dark">Sign Up</a></li>
-                  <li><a href="login" className="text-dark">Log In</a></li>
+                  
                 </ul>
               </div>
             </div>
