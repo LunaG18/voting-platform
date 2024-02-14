@@ -36,6 +36,12 @@ const Navbar: React.FC = () => {
         </header>
         <main className="flex-1 bg-blue-400">
           <div className="py-8">
+          <div className="flex flex-col items-center">
+        <h2 className="text-xl md:text-2xl text-center font-bold mb-4">Live poll results</h2>
+        <p className="text-base md:text-lg text-center mb-8">
+          Welcome to the live polling results of our voting app, where real-time democracy unfolds at your fingertips! As the votes pour in, we're here to provide you with real-time updates on how your favourite candidates are performing. Whether you're a first-time visitor or a returning user, we encourage you to register or log in to take part in this pivotal process. Casting your vote for your favourite candidate not only amplifies your voice but also shapes the future direction of governance. Don't miss this chance to make your vote count in real-time, as we bring the power of decision-making closer to you than ever before.
+        </p>
+      </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               <Card>
                 <CardContent className="flex flex-col items-center">
