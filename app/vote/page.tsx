@@ -34,7 +34,7 @@ const Navbar: React.FC = () => {
             </div>
           </nav>
         </header>
-        <main className="flex-1 bg-gray-100">
+        <main className="flex-1 bg-blue-400">
           <div className="py-8">
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               <Card>

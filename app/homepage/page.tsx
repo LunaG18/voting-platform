@@ -27,14 +27,14 @@ const Navbar: React.FC = () => {
                 <ul className="flex space-x-4">
                   <li><a href="homepage" className="text-dark"><u>Home</u></a></li>
                   <li><a href="vote" className="text-dark">Vote for Candidate</a></li>
-                  <li><a href="signup" className="text-dark">Sign Up</a></li>
+                  <li><a href="signup" className="text-dark">Register</a></li>
                   <li><a href="login" className="text-dark">Log In</a></li>
                 </ul>
               </div>
             </div>
           </nav>
         </header>
-        <main className="flex-1 bg-blue-400">
+        <main className="flex-1 bg-blue-400" >
           <div className="py-8">
           <div className="flex flex-col items-center">
         <h2 className="text-xl md:text-2xl text-center font-bold mb-4">Live poll results</h2>
