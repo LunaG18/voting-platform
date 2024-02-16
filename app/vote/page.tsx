@@ -11,11 +11,11 @@ const Navbar: React.FC = () => {
     };
 
     return (
-      <div className="flex flex-col h-screen">
+      <div className="flex flex-col h-screen bg-blue-300">
   <header className="py-10 text-center">
     <div className="container">
       <div className="space-y-2">
-        <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Voting Page</h1>
+        <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl"><a href="homepage" >Voting Page</a></h1>
         <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
           Choose Your Candidate
         </p>

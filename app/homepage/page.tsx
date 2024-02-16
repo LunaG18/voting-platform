@@ -33,7 +33,7 @@ const Navbar: React.FC = () => {
             </div>
           </nav>
         </header>
-        <main className="flex-1 bg-blue-400" >
+        <main className="flex-1 bg-blue-300" >
           <div className="py-8">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
         <h1 className="text-3xl font-bold">Live poll results</h1>
