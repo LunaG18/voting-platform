@@ -58,6 +58,17 @@ const Navbar: React.FC = () => {
                   />
                   <h3 className="text-2 font-bold mt-4">Cyril Ramaphosa</h3>
                   <p className="text-sm mt-1">ANC</p>
+                  <img
+                    alt="ANC flags"
+                    className="rounded-full"
+                    height="60"
+                    src="https://upload.wikimedia.org/wikipedia/en/0/0d/African_National_Congress_logo.svg"
+                    style={{
+                      aspectRatio: "60/60",
+                      objectFit: "cover",
+                    }}
+                    width="60"
+                  />
                   <p className="text-sm mt-1 font-bold">Votes:</p>
                   <div className="flex items-center gap-4 mt-6 w-full">
                     <div className="w-1/2">
@@ -86,6 +97,17 @@ const Navbar: React.FC = () => {
                   />
                   <h3 className="text-2 font-bold mt-4">John Steenhuisen</h3>
                   <p className="text-sm mt-1">DA</p>
+                  <img
+                    alt="flags"
+                    className="rounded-full"
+                    height="60"
+                    src="https://liberal-international.org/wp-content/uploads/2017/05/DA-240x240.jpg"
+                    style={{
+                      aspectRatio: "60/60",
+                      objectFit: "cover",
+                    }}
+                    width="60"
+                  />
                   <p className="text-sm mt-1 font-bold">Votes:</p>
                   <div className="flex items-center gap-4 mt-6 w-full">
                     <div className="w-1/2">
@@ -114,6 +136,17 @@ const Navbar: React.FC = () => {
                   />
                   <h3 className="text-2 font-bold mt-4">Julius Malema</h3>
                   <p className="text-sm mt-1">EFF</p>
+                  <img
+                    alt="flags"
+                    className="rounded-full"
+                    height="60"
+                    src="https://www.politicsweb.co.za/politicsweb/media_stream/politicsweb/1/394442/images/EffLogo2.png"
+                    style={{
+                      aspectRatio: "80/60",
+                      objectFit: "cover",
+                    }}
+                    width="80"
+                  />
                   <p className="text-sm mt-1 font-bold">Votes:</p>
                   <div className="flex items-center gap-4 mt-6 w-full">
                     <div className="w-1/2">
@@ -142,6 +175,17 @@ const Navbar: React.FC = () => {
                   />
                   <h3 className="text-2 font-bold mt-4">Velenkosini Hlabisa</h3>
                   <p className="text-sm mt-1">IFP</p>
+                  <img
+                    alt="flags"
+                    className="rounded-full"
+                    height="60"
+                    src="https://upload.wikimedia.org/wikipedia/en/6/6e/Inkatha_Freedom_Party_logo.svg"
+                    style={{
+                      aspectRatio: "60/60",
+                      objectFit: "cover",
+                    }}
+                    width="60"
+                  />
                   <p className="text-sm mt-1 font-bold">Votes:</p>
                   <div className="flex items-center gap-4 mt-6 w-full">
                     <div className="w-1/2">
@@ -170,6 +214,17 @@ const Navbar: React.FC = () => {
                   />
                   <h3 className="text-2 font-bold mt-4">Pieter Groenewald</h3>
                   <p className="text-sm mt-1">VF+</p>
+                  <img
+                    alt="flags"
+                    className="rounded-full"
+                    height="60"
+                    src="https://upload.wikimedia.org/wikipedia/en/7/72/Freedom_Front_Plus.svg"
+                    style={{
+                      aspectRatio: "60/60",
+                      objectFit: "cover",
+                    }}
+                    width="60"
+                  />
                   <p className="text-sm mt-1 font-bold">Votes:</p>
                   <div className="flex items-center gap-4 mt-6 w-full">
                     <div className="w-1/2">
@@ -198,6 +253,17 @@ const Navbar: React.FC = () => {
                   />
                   <h3 className="text-2 font-bold mt-4">Patricia de Lille</h3>
                   <p className="text-sm mt-1">Good</p>
+                  <img
+                    alt="flags"
+                    className="rounded-full"
+                    height="60"
+                    src="https://upload.wikimedia.org/wikipedia/commons/8/8d/GOOD_%28political_party%29.svg"
+                    style={{
+                      aspectRatio: "60/60",
+                      objectFit: "cover",
+                    }}
+                    width="60"
+                  />
                   <p className="text-sm mt-1 font-bold">Votes:</p>
                   <div className="flex items-center gap-4 mt-6 w-full">
                     <div className="w-1/2">
