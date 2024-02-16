@@ -146,7 +146,7 @@ const Navbar: React.FC = () => {
                   <div className="flex items-center gap-4 mt-6 w-full">
                     <div className="w-1/2">
                       <div className="rounded-lg bg-red-600 w-full h-8 overflow-hidden">
-                        <div className="rounded-lg bg-red-600 h-8" />
+                        <div className="rounded-lg bg-red-500 h-8" />
                       </div>
                     </div>
                     <div className="w-1/2 text-right">
