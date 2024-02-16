@@ -47,9 +47,19 @@ const Navbar: React.FC = () => {
                   <p className="max-w-3xl text-black font-semibold text-sm dark:text-gray-400 border p-4">
           Current president of South Africa and the African National Congress
         </p>
-              <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium bg-yellow-500 ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 w-full">
-                View Manifesto
-              </button>
+        <details className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium bg-yellow-500 ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 w-full">
+  <summary className="cursor-pointer">
+    View Manifesto
+  </summary>
+  <div className="absolute z-10 w-1000 p-4 bg-yellow-200 rounded shadow-lg">
+    
+    <p>The African National Congress (ANC) is a political party in South Africa. It originated <br></br>
+    as a liberation movement known for its opposition to apartheid and has governed the<br></br>
+     country since 1994, when the first post-apartheid election resulted in <br></br>
+     Nelson Mandela being elected as President of South Africa. Cyril Ramaphosa, the <br></br>
+     incumbent national President, has served as President of the ANC since 18 December 2017.</p>
+  </div>
+</details>
               
             </div>
           </div>
@@ -81,9 +91,21 @@ const Navbar: React.FC = () => {
           Current president of the Democratic Alliance
         </p>      
             
-              <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium bg-gray-180 ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 w-full">
-                View Manifesto
-              </button>
+        <details className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 w-full">
+  <summary className="cursor-pointer">
+    View Manifesto
+  </summary>
+  <div className="absolute z-10 w-1000 p-4 bg-gray-200 rounded shadow-lg">
+    
+    <p>The Democratic Alliance (DA; Afrikaans: Demokratiese Alliansie) is a South African political party and the official<br></br>
+     opposition to the ruling African National Congress (ANC). The party is broadly centrist, and has been attributed <br></br>
+     both centre-left and centre-right policies. It is a member of Liberal International and the Africa Liberal Network. <br></br>
+     The DA traces its roots to the founding of the anti-apartheid Progressive Party in 1959, with many mergers and name <br></br>
+     changes between that time and the present. The DA ideologically shows a variety of liberal tendencies, including<br></br>
+      social liberalism, classical liberalism, and conservative liberalism.<br></br>
+      The current leader of the party is John Steenhuisen, who was announced as the new leader on 1 November 2020<br></br> after the party's Federal Congress.</p>
+  </div>
+</details>
              
             </div>
           </div>
@@ -113,9 +135,19 @@ const Navbar: React.FC = () => {
                   />
                   <p className="max-w-3xl text-black font-semibold text-sm dark:text-gray-400 border p-4">
                   Current president of the Economic Freedom Fighters        </p>
-              <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium bg-stone-950 text-white ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 w-full">
-                View Manifesto
-              </button>
+                  <details className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium bg-stone-950 text-white ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 w-full">
+  <summary className="cursor-pointer">
+    View Manifesto
+  </summary>
+  <div className="absolute z-10 w-1000 p-4 bg-gray-400 rounded shadow-lg">
+    
+    <p>The Economic Freedom Fighters (EFF) is a South African Marxist–Leninist and black nationalist political party.<br></br>
+     It was founded by expelled former African National Congress Youth League (ANCYL) President Julius Malema, <br></br>
+     and his allies, in 2013. Malema is President of the EFF, heading the Central Command Team which serves as the<br></br>
+      central structure of the party. It is currently the third-largest party in both houses of the South African <br></br>
+      Parliament. The party is also the official opposition in three of South Africa's nine provincial legislatures.</p>
+  </div>
+</details>
               
             </div>
           </div>
@@ -145,9 +177,19 @@ const Navbar: React.FC = () => {
                   />
                   <p className="max-w-3xl text-black font-semibold text-sm dark:text-gray-400 border p-4">
                   Current president of the Inkatha Freedom Party        </p>
-              <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium bg-red-500 ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 w-full">
-                View Manifesto
-              </button>
+                  <details className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium bg-red-500 ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 w-full">
+  <summary className="cursor-pointer">
+    View Manifesto
+  </summary>
+  <div className="absolute z-10 w-1000 p-4 bg-red-200 rounded shadow-lg">
+    
+    <p>The Inkatha Freedom Party (IFP; Zulu: IQembu leNkatha yeNkululeko) is a right-wing political party<br></br>
+     in South Africa. Although registered as a national party, it has had only minor electoral success<br></br>
+      outside its home province of KwaZulu-Natal. Mangosuthu Buthelezi, who served as chief minister of<br></br>
+       KwaZulu during the Apartheid period, founded the party in 1975 and led it until 2019. He was succeeded <br></br>
+       as party president in 2019 by Velenkosini Hlabisa.</p>
+  </div>
+</details>
               
             </div>
           </div>
@@ -176,10 +218,25 @@ const Navbar: React.FC = () => {
                     width="150"
                   />
                   <p className="max-w-3xl text-black font-semibold text-sm dark:text-gray-400 border p-4">
-                  Current president of the Democratic Alliance        </p>
-              <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium bg-orange-500 ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 w-full">
-                View Manifesto
-              </button>
+                  Current president of the Freedom Front Plus        </p>
+                  <details className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium bg-orange-500 ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 w-full">
+  <summary className="cursor-pointer">
+    View Manifesto
+  </summary>
+  <div className="absolute z-10 w-1000 p-4 bg-orange-200 rounded shadow-lg">
+    
+    <p>The Freedom Front Plus (FF Plus; Afrikaans: Vryheidsfront Plus, VF Plus) is a right-wing <br></br>
+    political party in South Africa that was formed (as the Freedom Front) in 1994. It is led by <br></br>
+    Pieter Groenewald.<br></br>
+    The Freedom Front was founded on 1 March 1994 by members of the Afrikaner community under Constand Viljoen,<br></br>
+     after he had left the Afrikaner Volksfront amidst disagreements. Seeking to achieve his goals through<br></br>
+      electoral means, Viljoen registered the Freedom Front with the Independent Electoral Commission (IEC) on <br></br>
+      4 March 1994 to take part in the April 1994 general elections (This date has also been given as 7 March).<br></br>
+       On 12 March 1994 Viljoen handed in a list of candidates for the FF to the IEC, confirming that his party <br></br>
+       would take part in the elections.
+    </p>
+  </div>
+</details>
               
             </div>
           </div>
@@ -209,9 +266,22 @@ const Navbar: React.FC = () => {
                   />
                   <p className="max-w-3xl text-black font-semibold text-sm dark:text-gray-400 border p-4">
                   Current president of Good        </p>
-              <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium bg-stone-950 text-white ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 w-full">
-                View Manifesto
-              </button>
+                  <details className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium bg-stone-950 text-white ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 w-full">
+  <summary className="cursor-pointer">
+    View Manifesto
+  </summary>
+  <div className="absolute z-10 w-1000 p-4 bg-gray-300 rounded shadow-lg">
+    
+    <p>Good (stylised as GOOD) is a South African political party that was formed in December 2018. It is led by<br></br>
+     its founder Patricia de Lille, current Minister of Tourism and former mayor of Cape Town. The party's<br></br>
+      policies are predominantly left-wing and its platform is premised on social democracy, environmentalism,<br></br>
+       anti-racism and Broad-Based Black Economic Empowerment. The party's stronghold is the<br></br>
+        Western Cape and mainly draws support from the Coloured community.<br></br>
+        The party holds two seats in the National Assembly of South Africa, while it also has one seat in<br></br>
+         the Western Cape Provincial Parliament. In May 2019, De Lille was the only opposition member appointed <br></br>
+         to serve in the cabinet of South Africa. She had stated that Good would remain an opposition party.</p>
+  </div>
+</details>
               
             </div>
           </div>
