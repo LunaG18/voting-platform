@@ -66,7 +66,7 @@ export default function Login() {
  
             <div>
 <button
-                onClick={() => signIn('credentials', {email, password, redirect: true, callbackUrl: '/'})}
+                onClick={() => signIn('credentials', {email, password, redirect: true, callbackUrl: '/homepage'})}
                 disabled={!email || !password}
                 className="disabled:opacity-50 flex w-full justify-center rounded-md bg-gray-500 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-gray-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-500"
 >
@@ -78,7 +78,7 @@ export default function Login() {
           <p className="mt-10 text-center text-sm text-gray-600">
             Not a member?{' '}
 <button onClick={() => router.push('signup')} className="font-semibold leading-6 text-gray-400 hover:text-gray-300">
-              Sign Up
+              Register
 </button>
 </p>
 </div>
